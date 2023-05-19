@@ -34,6 +34,7 @@ const Section: React.FC<SectionProps> = ({
           <img
             src={isOpen ? collapse : expand}
             className="h-8 ml-2 mt inline"
+            alt=""
           />
         </h2>
       </button>

@@ -17,10 +17,15 @@ const Intro: React.FC<{}> = () => {
         <span className="text-purple4">2022 Annual Report</span>
       </h1>
       <div className="absolute top-3 left-4 lg:right-4 lg:left-auto lg:block flex">
-        <img src={lfLogo} alt="Library Futures logo" className="w-20 lg:w-32" />
+        <img
+          src={lfLogo}
+          alt="Library Futures logo"
+          className="w-20 lg:w-32"
+          alt=""
+        />
         <img
           src={ecLogo}
-          alt="Engelberg Center logo"
+          alt=""
           className="w-20 h-auto lg:w-32 mr-4 self-center"
         />
       </div>
@@ -57,7 +62,7 @@ const Intro: React.FC<{}> = () => {
           together. Thank you for your support this year, and in the years to
           come.
         </p>
-        <img className="mb-4 max-w-[110%] ml-[-5%]" src={library} />
+        <img className="mb-4 max-w-[110%] ml-[-5%]" src={library} alt="" />
       </div>
     </section>
   );

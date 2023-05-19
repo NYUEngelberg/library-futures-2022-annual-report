@@ -15,7 +15,11 @@ function App() {
     <div className="w-11/12 md:w-9/12 xl:w-7/12 xl:max-w-[1200px] mx-auto relative">
       <Intro />
       <main>
-        <img src={facts1} className="md:mt-[-100px] relative z-10" />
+        <img
+          src={facts1}
+          className="md:mt-[-100px] relative z-10"
+          alt="Fun fact: Library Futures published 4 research papers, hosted 18 webinars, and filed 3 amicus briefs in 2022."
+        />
         <div className="md:mt-[-30px]">
           {Object.keys(content).map((key, index) => {
             return (
@@ -45,7 +49,11 @@ function App() {
             );
           })}
         </div>
-        <img src={facts2} className="md:mt-[-30px] relative z-10" />
+        <img
+          src={facts2}
+          className="md:mt-[-30px] relative z-10"
+          alt="Fun fact: Library Futures gave over 10 conference presentations, had over 1000 webinar participants, and engaged with countless communities in 2022."
+        />
       </main>
       <footer className="md:mt-[-100px]">
         <Footer />

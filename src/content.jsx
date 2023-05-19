@@ -55,6 +55,7 @@ export const content = {
               <img
                 className="object-cover rotate-6 right-20 top-6 max-w-[125%] relative"
                 src={protestSigns}
+                alt=""
               />
             </div>
           </div>
@@ -182,7 +183,7 @@ export const content = {
           </h3>
           <div className="relative h-1">
             <div className="relative h-1 bottom-[29rem] right-6 opacity-0 md:opacity-30 lg:opacity-100">
-              <img className="h-[30rem]" src={textbook} />
+              <img className="h-[30rem]" src={textbook} alt="" />
             </div>
           </div>
         </span>
@@ -263,7 +264,7 @@ export const content = {
           webinar and letter writing.
         </p>
       ),
-      other: <img className="mb-4" src={urbanRural} />,
+      other: <img className="mb-4" src={urbanRural} alt="" />,
     },
   ],
   "Educational Resources": [
@@ -274,7 +275,7 @@ export const content = {
         <span className="relative">
           <h3 className="mb-[-4rem] relative z-10">Copyright Booth to Go</h3>
           <div className="flex justify-end opacity-0 md:opacity-100">
-            <img className="h-20 md:h-52" src={hands} />
+            <img className="h-20 md:h-52" src={hands} alt="" />
           </div>
         </span>
       ),
@@ -456,7 +457,7 @@ export const content = {
         </a>
       ),
       text: <h4 className="text-3xl bg-peach3/50">December</h4>,
-      other: <img className="mb-4" src={screenPile} />,
+      other: <img className="mb-4" src={screenPile} alt="" />,
     },
     {
       colors: ["bg-green2", "bg-green3", "text-notblack"],
