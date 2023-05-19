@@ -6,7 +6,11 @@ import hands from "./assets/images/hands.png";
 import externalLink from "./assets/icons/external-link.png";
 
 const externalLinkIcon = (
-  <img src={externalLink} className="h-4 mb-2 ml-2 inline" />
+  <img
+    src={externalLink}
+    className="h-4 mb-2 ml-2 inline"
+    alt="External link"
+  />
 );
 
 export const content = {
