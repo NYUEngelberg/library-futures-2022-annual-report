@@ -20,7 +20,7 @@ function App() {
           className="md:mt-[-100px] relative z-10"
           alt="Fun fact: Library Futures published 4 research papers, hosted 18 webinars, and filed 3 amicus briefs in 2022."
         />
-        <div className="md:mt-[-30px]">
+        <div className="md:mt-[-10px]">
           {Object.keys(content).map((key, index) => {
             return (
               <Section sectionTitle={key} key={index}>

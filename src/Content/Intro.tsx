@@ -17,12 +17,7 @@ const Intro: React.FC<{}> = () => {
         <span className="text-purple4">2022 Annual Report</span>
       </h1>
       <div className="absolute top-3 left-4 lg:right-4 lg:left-auto lg:block flex">
-        <img
-          src={lfLogo}
-          alt="Library Futures logo"
-          className="w-20 lg:w-32"
-          alt=""
-        />
+        <img src={lfLogo} className="w-20 lg:w-32" alt="" />
         <img
           src={ecLogo}
           alt=""
