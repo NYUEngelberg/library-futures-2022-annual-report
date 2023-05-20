@@ -3,7 +3,7 @@ import Intro from "../Content/Intro";
 import Section from "../Content/Section";
 import ContentBlock from "../Content/ContentBlock";
 // @ts-ignore
-import { Content } from "../Content";
+import { Content } from "../content";
 import Footer from "../Content/Footer";
 // @ts-ignore
 import facts1 from "../assets/images/facts-1.png";
