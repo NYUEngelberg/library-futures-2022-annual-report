@@ -5,7 +5,7 @@ import screenPile from "./assets/images/screen-pile.png";
 import hands from "./assets/images/hands.png";
 import externalLink from "./assets/icons/external-link.png";
 
-const externalLinkIcon = (
+const ExternalLinkIcon = (
   <img
     src={externalLink}
     className="h-4 mb-2 ml-2 inline"
@@ -13,7 +13,7 @@ const externalLinkIcon = (
   />
 );
 
-export const content = {
+export const Content = {
   Research: [
     {
       colors: ["bg-green2", "bg-green3", "text-notblack"],
@@ -71,7 +71,7 @@ export const content = {
             className="font-bold block text-base md:text-xl"
             href="https://www.supremecourt.gov/DocketPDF/21/21-869/228252/20220617095802802_21-869_Amici%20Brief.pdf">
             Warhol Foundation v. Lynn Goldsmith Ltd.
-            {externalLinkIcon}
+            {ExternalLinkIcon}
           </a>
           <a
             className="font-bold block text-base md:text-xl"
@@ -134,7 +134,7 @@ export const content = {
           className="font-bold block text-base md:text-xl"
           href="https://publicknowledge.org/policy/public-interest-letter-opposing-jcpa/">
           Read more
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: (
@@ -225,7 +225,7 @@ export const content = {
           className="font-bold block text-base md:text-xl"
           href="https://libraryfreedom.medium.com/we-demand-accountability-from-hoopla-digital-and-overdrive-regarding-the-platforming-of-fascist-c47c88e62ddc">
           Read more
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: (
@@ -256,7 +256,7 @@ export const content = {
           className="font-bold block text-base md:text-xl"
           href="https://www.youtube.com/watch?v=M2jb5IMIfIs">
           Read more
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: (
@@ -288,7 +288,7 @@ export const content = {
           className="font-bold block text-base md:text-xl"
           href="https://uploads-ssl.webflow.com/5f308d0beb0dcb479f2d2b7c/62d85de0330928071728afa7_Copyright%20Booth%20To-go!.pdf">
           View PDF
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: (
@@ -311,7 +311,7 @@ export const content = {
           href="https://archive.org/details/public-domain-zine">
           We are co-hosts and Zine Makers for Public Domain Day in front of an
           audience of thousands
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: <h4 className="text-3xl bg-peach3/50">January</h4>,
@@ -341,7 +341,7 @@ export const content = {
           href="https://twitter.com/library_futures/status/1518408275846443008">
           We hold our first in person event in NYC with METRO Library Council
           and the Engelberg Center
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: <h4 className="text-3xl bg-peach3/50">April</h4>,
@@ -367,7 +367,7 @@ export const content = {
           className="font-bold block text-base md:text-xl"
           href="https://www.youtube.com/watch?v=wzT8ntYR7sQ&t=544s">
           Director Jennie Rose Halperin presents at the US Book Show
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: <h4 className="text-3xl bg-peach3/50">June</h4>,
@@ -382,7 +382,7 @@ export const content = {
           href="https://metro.org/decentralizedweb">
           We kick off our event series Exploring the Decentralized Web with
           METRO Library Council and the Internet Archive
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: <h4 className="text-3xl bg-peach3/50">July</h4>,
@@ -398,7 +398,7 @@ export const content = {
           Director Jennie Rose Halperin is named Chair of the National
           Information Standards Organization’s Controlled Digital Lending
           Working Group
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: <h4 className="text-3xl bg-peach3/50">August</h4>,
@@ -428,7 +428,7 @@ export const content = {
           href="https://publicknowledge.org/annual-ip3-awards/">
           Kyle K. Courtney receives IP3 Award from Public Knowledge, Library
           Futures attends the Library Leaders Forum
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: <h4 className="text-3xl bg-peach3/50">October</h4>,
@@ -442,7 +442,7 @@ export const content = {
           className="font-bold block text-base md:text-xl"
           href="https://www.bonfire.com/library-futures-relx-dont-do-it/">
           Library Futures releases our RELX: Don’t Do it Tshirt
-          {externalLinkIcon}
+          {ExternalLinkIcon}
         </a>
       ),
       text: <h4 className="text-3xl bg-peach3/50">November</h4>,

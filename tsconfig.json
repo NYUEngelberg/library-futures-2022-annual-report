@@ -20,6 +20,6 @@
       "strict": true /* Enable all strict type-checking options. */,
       "target": "es5" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     },
-    "extends": "./tsconfig.base.json",
+    // "extends": "./tsconfig.base.json",
     "include": [".", ".eslintrc.js"]
   }

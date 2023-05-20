@@ -3,7 +3,7 @@ import Intro from "../Content/Intro";
 import Section from "../Content/Section";
 import ContentBlock from "../Content/ContentBlock";
 // @ts-ignore
-import { content } from "../content";
+import { Content } from "../Content";
 import Footer from "../Content/Footer";
 // @ts-ignore
 import facts1 from "../assets/images/facts-1.png";
@@ -21,11 +21,11 @@ function App() {
           alt="Fun fact: Library Futures published 4 research papers, hosted 18 webinars, and filed 3 amicus briefs in 2022."
         />
         <div className="md:mt-[-10px]">
-          {Object.keys(content).map((key, index) => {
+          {Object.keys(Content).map((key, index) => {
             return (
               <Section sectionTitle={key} key={index}>
                 {(
-                  (content as any)[key] as [
+                  (Content as any)[key] as [
                     {
                       colors: Array<string>;
                       title: React.ReactNode;
