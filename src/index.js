@@ -7,7 +7,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='bg-peach1'>
-      <App />
+      Hello World
+      {/* <App /> */}
     </div>
   </React.StrictMode>
 );
