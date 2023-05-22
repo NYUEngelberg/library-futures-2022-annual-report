@@ -12,7 +12,7 @@ import facts2 from "../assets/images/facts-2.png";
 
 function App() {
   return (
-    <div className="w-11/12 md:w-9/12 xl:w-7/12 xl:max-w-[1200px] mx-auto relative">
+    <div className="w-11/12 md:w-9/12 xl:w-9/12 xl:max-w-[1200px] mx-auto relative">
       <Intro />
       <main>
         <img

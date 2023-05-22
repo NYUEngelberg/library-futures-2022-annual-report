@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ['Borchy', 'sans-serif'],
+        display: ['Allegra', 'sans-serif'],
         sans: ['Helvetica', 'sans-serif']
       },
       colors: {

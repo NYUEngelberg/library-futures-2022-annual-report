@@ -9,12 +9,12 @@ import library from "../assets/images/library.png";
 const Intro: React.FC<{}> = () => {
   return (
     <section className="bg-peach mb-4 relative intro">
-      <h1 className="text-3xl md:text-6xl mb-4 pt-24 lg:pt-6">
-        <span className="text-4xl md:text-7xl font-display text-purple4">
+      <h1 className="text-3xl md:text-6xl mb-4 pt-24 lg:pt-6 tracking-wider">
+        <span className="text-4xl md:text-7xl font-display text-purple4 font-bold">
           Library Futures
         </span>{" "}
         <br />
-        <span className="text-purple4">2022 Annual Report</span>
+        <span className="text-purple4 font-display">2022 Annual Report</span>
       </h1>
       <div className="absolute top-3 left-4 lg:right-4 lg:left-auto lg:block flex">
         <img src={lfLogo} className="w-20 lg:w-32" alt="" />
@@ -25,7 +25,7 @@ const Intro: React.FC<{}> = () => {
         />
       </div>
       <div>
-        <h2 className="text-2xl md:text-4xl bg-peach1/60 font-display text-teal3">
+        <h2 className="text-2xl md:text-4xl bg-peach1/60 font-display text-teal3 tracking-wider font-bold">
           A note from Jennie Rose Halperin, Director
         </h2>
         <p className="text-base md:text-xl">

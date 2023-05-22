@@ -179,14 +179,18 @@ export const Content = {
       // ),
       title: (
         <span className="block w-full text-left md:text-right relative">
-          <h3 className="relative z-10">
-            Joint Campaign with <br />
-            SPARC to Halt
-            <br /> Wiley E-Textbook <br />
+          <h3 className="relative z-10 hidden lg:block">
+            Joint Campaign
+            <br /> with SPARC to <br />
+            Halt Wiley <br /> E-Textbook <br />
             Removal
           </h3>
+          <h3 className="text-left relative z-10 block lg:hidden">
+            Joint Campaign with SPARC to <br />
+            Halt Wiley E-Textbook Removal
+          </h3>
           <div className="relative h-1">
-            <div className="relative h-1 bottom-[29rem] right-6 opacity-0 md:opacity-30 lg:opacity-100">
+            <div className="relative h-1 bottom-[29rem] right-6 opacity-0 lg:opacity-100">
               <img className="h-[30rem]" src={textbook} alt="" />
             </div>
           </div>
@@ -277,7 +281,7 @@ export const Content = {
       id: "copyright-booth",
       title: (
         <span className="relative">
-          <h3 className="mb-[-4rem] relative z-10">Copyright Booth to Go</h3>
+          <h3 className="relative z-10">Copyright Booth to Go</h3>
           <div className="flex justify-end opacity-0 md:opacity-100">
             <img className="h-20 md:h-52" src={hands} alt="" />
           </div>
@@ -350,13 +354,14 @@ export const Content = {
       colors: ["bg-peach2", "bg-peach3", "text-notblack"],
       id: "may",
       title: "",
-      links: "",
-      text: (
-        <>
-          <h4 className="text-3xl bg-peach3/50">May</h4>
-          <p className="">We welcome our first fellows for digital equity</p>
-        </>
+      links: (
+        <a
+          className="font-bold block text-base md:text-xl"
+          href="https://www.libraryfutures.net/post/meet-our-new-fellows-policy-fellow-juliya-ziskina-and-community-fellow-emily-finch">
+          We welcome our first fellows for digital equity
+        </a>
       ),
+      text: <h4 className="text-3xl bg-peach3/50">May</h4>,
     },
     {
       colors: ["bg-peach2", "bg-peach3", "text-notblack"],
