@@ -35,29 +35,36 @@ const Intro: React.FC<{}> = () => {
           briefs, and advocacy campaigns. Since the beginning, our goal has been
           to tackle the cutting-edge issues around technology and access,
           promoting access to information with an emphasis on equity and
-          fighting corporate enclosure. <br />
-          <br /> Library Futures builds connections between library
-          practitioners, policymakers, advocates, and technologists, promoting
-          new possibilities for preservation of, and unfettered access to,
+          fighting corporate enclosure.
+          <br />
+          <br />
+          Library Futures builds connections between library practitioners,
+          policymakers, advocates, and technologists, promoting new
+          possibilities for preservation of, and unfettered access to,
           information. Our work is situated at the front end of the curve,
           tackling key and emerging issues while promoting the rights of
           libraries to provide equitable, open access to culture in the service
-          of the public good. <br />
-          <br /> We move with a decisiveness and thoughtfulness that remains
-          unique in the space. Settled into our new home at the Engelberg Center
-          on Innovation Law & Policy at NYU Law and with a two year
-          capacity-building grant from the Mellon Foundation, we are better
-          positioned than ever to tackle the most pressing information issues
-          facing the communities we serve.
+          of the public good.
           <br />
-          <br /> Libraries face unprecedented challenges, and together we can
-          rise to meet them in an uncertain landscape of censorship,
-          corporatized knowledge systems, anti-democratic legislation, and court
-          decisions that privilege profits over people. But we can only do it
-          together. Thank you for your support this year, and in the years to
-          come.
+          <br />I am proud that we move with such decisiveness and
+          thoughtfulness. Settled into our new home at the Engelberg Center on
+          Innovation Law & Policy at NYU Law and with a two year capacity-
+          building grant from the Mellon Foundation, we are better positioned
+          than ever to tackle the most pressing information issues facing the
+          communities we serve.
+          <br />
+          <br />
+          Libraries face unprecedented challenges, and together we can rise to
+          meet them in an uncertain landscape of censorship, corporatized
+          knowledge systems, anti-democratic legislation, and court decisions
+          that privilege profits over people. But we can only do it together.
+          Thank you for your support this year, and in the years to come.
         </p>
-        <img className="mb-4 max-w-[110%] ml-[-5%]" src={library} alt="" />
+        <img
+          className="mb-4 max-w-[110%] ml-[-5%] xl:ml-[-4%] 2xl:ml-[-2%]"
+          src={library}
+          alt=""
+        />
       </div>
     </section>
   );
